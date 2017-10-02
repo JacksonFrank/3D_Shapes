@@ -11,7 +11,7 @@ public class Cylinder implements Interface3D {
 		return (float)(Math.PI * (BRadius * BRadius));
 	}
 	public float getSA() {
-		return (float)(2f * Math.PI * BRadius * height);
+		return (float)((2f * Math.PI * BRadius * height) + (2f * Math.PI * BRadius * BRadius));
 	}
 	
 }

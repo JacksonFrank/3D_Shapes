@@ -12,6 +12,6 @@ public class Cone extends Cylinder{
 		return (super.getVolume() / 3);
 	}
 	public float getSA() {
-		return (float)((Math.PI * BRadius * height) + (Math.PI * BRadius * BRadius));
+		return (float)((Math.PI * BRadius * height) + (Math.PI * BRadius * (Math.sqrt((BRadius * BRadius) + (height * height)))));
 	}
 }
