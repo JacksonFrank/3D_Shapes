@@ -1,4 +1,8 @@
-
+/*
+ Jackson Frank
+ File: Sphere.java
+ Purpose: To return the volume and SA of a sphere
+ */
 public class Sphere implements Interface3D{
 	private float radius;
 	

@@ -1,4 +1,8 @@
-
+/*
+ Jackson Frank
+ File: Cylinder.java
+ Purpose: to return the volume and SA of a cylinder
+ */
 public class Cylinder implements Interface3D {
 	private float BRadius, height;
 	

@@ -1,4 +1,8 @@
-
+/*
+ Jackson Frank
+ File: TriangularPrism.java
+ Purpose: To return the volume and SA of a triangular prism
+ */
 public class TriangularPrism implements Interface3D{
 	private float s1, s2, s3, length;
 	

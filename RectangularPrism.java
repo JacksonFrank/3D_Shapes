@@ -1,4 +1,8 @@
-
+/*
+ Jackson Frank
+ File: RectangularPrism.java
+ Purpose: To return the SA and volume of a rectangular prism
+ */
 public class RectangularPrism implements Interface3D {
 	private float length, width, height;
 	
